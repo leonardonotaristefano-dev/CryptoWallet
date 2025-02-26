@@ -1,0 +1,117 @@
+:root{
+    --color-p: rgb(0, 90, 149);
+    --color-s: rgb(239, 170, 66);
+    --color-sn: rgb(0, 0, 255);
+    --color-a: rgb(0, 0, 0);
+    --color-t: rgb(137, 252, 0);
+}
+
+.color-p{
+    color: var(--color-p);
+}
+.color-s{
+    color: var(--color-s);
+}
+.color-a{
+    color: var(--color-a);
+}
+.color-t{
+    color: var(--color-t);
+}
+
+.color-sn{
+    color: var(--color-sn);
+}
+
+.bg-p{
+    background-color: var(--color-p);
+}
+.bg-s{
+    background-color: var(--color-s);
+}
+.bg-a{
+    background-color: var(--color-a);
+}
+
+/* FONTS  */
+.title {
+    font-family: "Electrolize", serif;
+
+}
+
+.pressStart2P {
+    font-family: "Press Start 2P", serif;
+
+}
+
+* {
+    font-family: "Roboto", serif;
+}
+
+.transition{
+    transition: .7s;
+}
+
+body{
+    background-color: var(--color-p);
+}
+
+
+/* HOMEPAGE -------------------------- */ 
+
+
+/* NAVBAR  */
+.nav-link{
+    font-size: larger;
+    text-shadow: 1px 1px var(--color-a), 1px 1px var(--color-a);
+}
+
+.nav-scrolled{
+    backdrop-filter: blur(7px);
+    border: 2px solid var(--color-a);
+    border-radius: 10px;
+    margin: 5vh 15vw;
+}
+
+/* HEADER  */
+.bg-header{
+    background: url(./media/cryptocurrency.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mainTitle{
+    font-size: 90px;
+    color: var(--color-s);
+    text-shadow:1px 1px white, -1px -1px white,  3px 3px 20px var(--color-a), 5px 5px 10px var(--color-sn);
+    margin-top: 120px;
+    margin-left: 50px;
+}
+
+.subtitleMain{
+    font-size: 50px;
+    color: var(--color-a);
+    text-shadow: 1px 1px var(--color-s), -1px -1px var(--color-s);
+    margin-left: 90px;
+}
+
+/* SEZIONE CATEGORIE  */
+.bg-category{
+    min-height: 70vh;
+}
+
+.boxCategory{
+    border: 2px solid var(--color-a);
+    border-radius: 50%;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(160, 188, 208, 0.313);
+}
+
+.ethlogo {
+    width: 200px;
+    height: 200px;
+}
