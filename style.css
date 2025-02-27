@@ -2,7 +2,7 @@
     --color-p: rgb(0, 90, 149);
     --color-s: rgb(239, 170, 66);
     --color-sn: rgb(0, 0, 255);
-    --color-a: rgb(0, 0, 0);
+    --color-a: rgb(255, 255, 255);
     --color-t: rgb(137, 252, 0);
 }
 
@@ -63,6 +63,7 @@ body{
 /* NAVBAR  */
 .nav-link{
     font-size: larger;
+    color: var(--color-s);
     text-shadow: 1px 1px var(--color-a), 1px 1px var(--color-a);
 }
 
@@ -82,11 +83,11 @@ body{
 }
 
 .mainTitle{
-    font-size: 90px;
+    font-size: 70px;
     color: var(--color-s);
     text-shadow:1px 1px white, -1px -1px white,  3px 3px 20px var(--color-a), 5px 5px 10px var(--color-sn);
     margin-top: 120px;
-    margin-left: 50px;
+    margin-left: 45px;
 }
 
 .subtitleMain{
@@ -97,21 +98,56 @@ body{
 }
 
 /* SEZIONE CATEGORIE  */
+
 .bg-category{
     min-height: 70vh;
 }
 
 .boxCategory{
-    border: 2px solid var(--color-a);
+    border: 2px solid var(--color-s);
     border-radius: 50%;
     aspect-ratio: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(160, 188, 208, 0.313);
+    background-color: rgba(10, 86, 141, 0.313);
 }
 
 .ethlogo {
     width: 200px;
     height: 200px;
+}
+
+.btcanimato {
+    width: 50vh;
+    height: 25vw;
+    margin-top: 6vh;
+    margin-left: 12vw;
+}
+
+/* SEZIONE ULTIMI PRODOTTI  */
+
+.card-custom{
+    color: rgb(168, 168, 168);
+}
+
+.img-card-custom{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    aspect-ratio: 1/0.6;
+}
+
+.btn-card{
+    margin-top: 5vh;
+    padding: 5px 20px;
+    background-color: var(--color-s);
+    color: var(--color-a);
+    border: 2px solid var(--color-a);
+    box-shadow: 1px 1px 20px var(--color-sn), 5px 5px 30px var(--color-s), -1px -1px 10px var(--color-a), -5px -5px 10px var(--color-s);
+}
+
+/* FOOTER  */
+
+.btnfooter {
+    background-color: var(--color-s); ;
 }
