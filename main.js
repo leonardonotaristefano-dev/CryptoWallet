@@ -1,4 +1,3 @@
-
 let navbar = document.querySelector(".navbar")
 let homeLink = document.querySelector("#homeLink")
 
@@ -13,6 +12,49 @@ window.addEventListener("scroll", ()=>{
     }
 
 })
+
+// SEZIONE NUMERI
+
+let gamesNum = document.querySelector("#gamesNum")
+let usersNum = document.querySelector("#usersNum")
+let reviewsNum = document.querySelector("#reviewsNum")
+
+
+
+
+function createInterval(finalNumber, elemento, speed){
+    let counter = 0
+    
+    let interval = setInterval( ()=>{
+
+        if(counter < finalNumber){
+            counter++
+            elemento.innerText = counter
+        } else {
+            clearInterval(interval)
+        }
+    }, speed )
+}
+
+
+// INTERSECTION OBSERVER
+
+let isStarted = false
+
+const observer = new IntersectionObserver( (entries)=>{
+    entries.forEach( (entry)=>{
+        if(entry.isIntersecting && isStarted == false){
+            createInterval(1000, gamesNum, 6)
+            createInterval(500, usersNum, 12)
+            createInterval(200, reviewsNum, 30)
+            isStarted = true
+        }
+    } )
+});
+
+let numTest = document.querySelector("#numTest")
+observer.observe(gamesNum)
+
 
 // ULTIMI PRODOTTI
 

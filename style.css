@@ -1,3 +1,5 @@
+/* COLORI */
+
 :root{
     --color-p: rgb(0, 90, 149);
     --color-s: rgb(239, 170, 66);
@@ -33,15 +35,14 @@
     background-color: var(--color-a);
 }
 
-/* FONTS  */
+/* FONTS */
+
 .title {
     font-family: "Electrolize", serif;
-
 }
 
 .pressStart2P {
     font-family: "Press Start 2P", serif;
-
 }
 
 * {
@@ -75,8 +76,9 @@ body{
 }
 
 /* HEADER  */
+
 .bg-header{
-    background: url(./media/cryptocurrency.webp);
+    background-image: linear-gradient(transparent,var(--color-p)), url(./media/cryptocurrency.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -104,7 +106,7 @@ body{
 }
 
 .boxCategory{
-    border: 2px solid var(--color-s);
+    border: 2px solid var(--color-a);
     border-radius: 50%;
     aspect-ratio: 1;
     display: flex;
