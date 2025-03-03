@@ -64,7 +64,7 @@ const games = [
     {"modello": "Smart3", "produttore": "Ellipal", "prezzo": 80},
     {"modello": "Safe5", "produttore": "Trezor", "prezzo": 59},
     {"modello": "Pro4", "produttore": "Tangem", "prezzo": 99},
-    {"modello": "Nano S", "produttore": "Ledger", "prezzo": 110},
+    {"modello": "Nano S", "produttore": "Ledger", "prezzo": 110}
 ]
 
 let cardsWrapper = document.querySelector("#cardsWrapper")
