@@ -61,7 +61,8 @@ body{
 /* HOMEPAGE -------------------------- */ 
 
 
-/* NAVBAR  */
+/* NAVBAR */
+
 .nav-link{
     font-size: larger;
     color: var(--color-s);
@@ -75,7 +76,7 @@ body{
     margin: 5vh 15vw;
 }
 
-/* HEADER  */
+/* HEADER */
 
 .bg-header{
     background-image: linear-gradient(transparent,var(--color-p)), url(./media/cryptocurrency.webp);
@@ -99,7 +100,7 @@ body{
     margin-left: 90px;
 }
 
-/* SEZIONE CATEGORIE  */
+/* SEZIONE CATEGORIE */
 
 .bg-category{
     min-height: 70vh;
@@ -127,7 +128,7 @@ body{
     margin-left: 12vw;
 }
 
-/* SEZIONE ULTIMI PRODOTTI  */
+/* SEZIONE ULTIMI PRODOTTI */
 
 .card-custom{
     color: rgb(168, 168, 168);
@@ -148,7 +149,48 @@ body{
     box-shadow: 1px 1px 20px var(--color-sn), 5px 5px 30px var(--color-s), -1px -1px 10px var(--color-a), -5px -5px 10px var(--color-s);
 }
 
-/* FOOTER  */
+/* SEZIONE REVIEWS */
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    aspect-ratio: 1;
+    max-width: 100%;
+}
+
+.box-review{
+    height: 100%;
+    background-color: var(--color-s);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.img-review{
+    width: 60px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 2px solid var(--color-a);
+    padding: 5px;
+}
+
+.round-slide{
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+/* FOOTER */
 
 .btnfooter {
     background-color: var(--color-s); ;
@@ -164,4 +206,12 @@ body{
 .titleProducts {
     margin-top: 20vh;
     margin-bottom: 1vh;
+}
+
+.box-filters{
+    padding: 30px;
+    background-color: var(--color-ao);
+    border-radius: 10px;
+    position: sticky;
+    top: 50px;
 }
