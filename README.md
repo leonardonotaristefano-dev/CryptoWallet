@@ -47,10 +47,11 @@ I prodotti presenti sono inseriti attraverso la logica presente nel file *produc
     ![Animazione dei numeri](media/animazione_conteggio_numeri.gif)
 
     - Sezione "Ultimi prodotti" che mostra i Wallet più recenti, aggiungendoli dinamicamente con immagini e prezzi.
+    
     ![Sezione ultimi prodotti](media/ultimi_prodotti.png)
 
     - Sezione "Ultime recensioni" in cui vengono mostrate le recensioni dei clienti, mostrandole dinamicamente con immagini, descrizioni e indice di    gradimento rappresentato da icone Bootstrap a forma di stella.
-    
+
     ![Recensioni dei clienti](media/recensioni.gif)
 
 
