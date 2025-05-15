@@ -80,7 +80,7 @@ Queste scelte contribuiscono a creare un'esperienza visiva piacevole per l'utent
 
 
 
-## In Conclusione..
+## Considerazioni
 
 Questo è il primo progetto realizzato come sviluppatore full-stack.
 Attraverso **CryptoWallet**, ho potuto approfondire le mie competenze in sviluppo web, design responsivo e interattività.
