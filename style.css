@@ -5,7 +5,6 @@
     --color-s: rgb(239, 170, 66);
     --color-sn: rgb(0, 0, 255);
     --color-a: rgb(255, 255, 255);
-    --color-t: rgb(137, 252, 0);
 }
 
 .color-p{
@@ -16,9 +15,6 @@
 }
 .color-a{
     color: var(--color-a);
-}
-.color-t{
-    color: var(--color-t);
 }
 
 .color-sn{

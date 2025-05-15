@@ -32,10 +32,10 @@ fetch("./wallet.json").then( (response)=>  response.json() ).then( (data)=> {
                                         <i class="bi bi-suit-heart icon-card fs-4 color-a"></i>
                                     </div>
                                     <h5 class="title mt-5 fw-bold">${game.modello}</h5>
-                                    <p>Prezzo: <span class="pressStart2P color-t">${game.prezzo}$</span></p>
+                                    <p>Prezzo: <span class="pressStart2P color-s">${game.prezzo}$</span></p>
                                     <p>Console: ${game.produttore}</p>
                                     <div class="d-flex justify-content-center">
-                                        <button class="btn-card">Compra</button>
+                                        <button class="btn-card mb-5">Compra</button>
                                     </div>
                                 </div>
                                 `
