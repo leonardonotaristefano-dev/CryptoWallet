@@ -74,7 +74,7 @@ Per il design, ho scelto una combinazione di colori che trasmette eleganza e nat
 
 I font utilizzati sono:
 - **Electrolize** per i titoli
-- **Roboto** per i paragafi
+- **Roboto** per i paragrafi
 
 Queste scelte contribuiscono a creare un'esperienza visiva piacevole per l'utente. I fonts sono stati presi da Google Fonts.
 
