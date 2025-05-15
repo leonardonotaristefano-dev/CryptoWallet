@@ -3,6 +3,8 @@
 
 "CryptoWallet" è un progetto front-end sviluppato con passione per rappresentare un mercato online di crypto wallet per la self custody. Questo sito web offre un'esperienza utente intuitiva e coinvolgente, grazie all'utilizzo di HTML, CSS, JavaScript, Bootstrap e AOS.
 
+Per poterne esplorare tutte le funzionalità direttamente dal browser, il progetto è disponibile anche online tramite GitHub Pages, a [QUESTO LINK](https://leonardonotaristefano-dev.github.io/CryptoWallet/).
+
 ## Obiettivi del Progetto
 L'obiettivo principale era creare un'interfaccia utente intuitiva e visivamente accattivante per un e-commerce di Wallet Crypto. 
 Il sito include animazioni dinamiche, una barra di navigazione interattiva, sezioni di prodotto con immagini cliccabili e un modulo di iscrizione alla newsletter. 
