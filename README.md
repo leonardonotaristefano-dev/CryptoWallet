@@ -1,15 +1,14 @@
 
 # CryptoWallet
 
-"CryptoWallet" è un progetto front-end sviluppato con passione per rappresentare un mercato online di crypto wallet per la self custody. Questo sito web responsive offre un'esperienza utente intuitiva e coinvolgente, grazie all'utilizzo di HTML, CSS, JavaScript, Bootstrap e AOS.
+"CryptoWallet" è un progetto front-end sviluppato con passione per rappresentare un mercato online di crypto wallet per la self custody. Questo sito web offre un'esperienza utente intuitiva e coinvolgente, grazie all'utilizzo di HTML, CSS, JavaScript, Bootstrap e AOS.
 
-Per poterne esplorare tutte le funzionalità direttamente dal browser, il progetto è disponibile anche online tramite GitHub Pages, a [QUESTO LINK](https://leonardonotaristefano-dev.github.io/CryptoWallet/).
-
+Per poterne esplorare tutte le funzionalità direttamente dal browser, il progetto è disponibile anche online tramite GitHub Pages, accedendo a [QUESTO LINK](https://leonardonotaristefano-dev.github.io/CryptoWallet/).
 
 ## Obiettivi del Progetto
 L'obiettivo principale era creare un'interfaccia utente intuitiva e visivamente accattivante per un e-commerce di Wallet Crypto. 
 Il sito include animazioni dinamiche, una barra di navigazione interattiva, sezioni di prodotto con immagini cliccabili e un modulo di iscrizione alla newsletter. 
-Tutto è stato progettato per garantire un layout moderno e funzionale ad una possibile futura implementazione della parte back-end.
+E' stato progettato per garantire un layout moderno e funzionale ad una possibile futura implementazione della parte back-end.
 
 
 ## Tecnologie Utilizzate
@@ -74,13 +73,14 @@ Per il design, ho scelto una combinazione di colori che trasmette eleganza e nat
 
 I font utilizzati sono:
 - **Electrolize** per i titoli
-- **Roboto** per i paragafi
+- **Roboto** per i paragrafi
 
-Queste scelte contribuiscono a creare un'esperienza visiva piacevole per l'utente. I fonts sono stati presi da Google Fonts.
+Queste scelte contribuiscono a creare un'esperienza visiva piacevole per l'utente.
+I fonts sono stati importati da Google Fonts.
 
 
 
-## In Conclusione..
+## Considerazioni
 
 Questo è il primo progetto realizzato come sviluppatore full-stack.
 Attraverso **CryptoWallet**, ho potuto approfondire le mie competenze in sviluppo web, design responsivo e interattività.
