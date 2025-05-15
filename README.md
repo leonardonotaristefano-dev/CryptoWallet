@@ -72,7 +72,7 @@ Per il design, ho scelto una combinazione di colori che trasmette eleganza e nat
 - **Testo titoli**: rgb(239, 170, 66);
 - **Colore accento**: rgb(255, 255, 255);
 
-I font utilizzati sono:
+I font utilizzati sono:
 - **Electrolize** per i titoli
 - **Roboto** per i paragafi
 
