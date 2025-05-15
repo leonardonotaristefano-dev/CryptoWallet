@@ -1,7 +1,7 @@
 
 # CryptoWallet
 
-"CryptoWallet" è un progetto front-end sviluppato con passione per rappresentare un mercato online di crypto wallet per la self custody. Questo sito web responsive offre un'esperienza utente intuitiva e coinvolgente, grazie all'utilizzo di HTML, CSS, JavaScript, Bootstrap e AOS.
+"CryptoWallet" è un progetto front-end sviluppato con passione per rappresentare un mercato online di crypto wallet per la self custody. Questo sito web offre un'esperienza utente intuitiva e coinvolgente, grazie all'utilizzo di HTML, CSS, JavaScript, Bootstrap e AOS.
 
 ## Obiettivi del Progetto
 L'obiettivo principale era creare un'interfaccia utente intuitiva e visivamente accattivante per un e-commerce di Wallet Crypto. 
