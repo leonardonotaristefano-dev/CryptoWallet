@@ -37,7 +37,7 @@ I prodotti presenti sono inseriti attraverso la logica presente nel file *produc
 - **main.js**: Il file JavaScript principale che gestisce l'interattività del sito, come la navigazione e le animazioni. Ecco le funzionalità principali: 
 
     - Navbar cambia comportamento al variare dello scroll e a seconda della posizione della pagina. 
-    ![Animazione della navbar](media/animazione_conteggio_numeri.gif)
+    ![Animazione della navbar](media/animazione_navbar.gif)
 
     - Animazione per il conteggio progressivo di numeri, come Wallet venduti, Utenti registrati e Recensioni positive, che entra in azione solo quando l'elemento entra nella vista del browser.
     ![Animazione dei numeri](media/animazione_conteggio_numeri.gif)
