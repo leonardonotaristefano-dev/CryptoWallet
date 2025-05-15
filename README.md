@@ -26,10 +26,12 @@ Tutto è stato progettato per garantire un layout moderno e funzionale ad una po
 Il progetto è organizzato nei seguenti file:
 
 - **index.html**: La homepage del sito, che presenta l'introduzione con un'immagine rappresentativa di sfondo ed un'animazione, le liste dei marchi riguardanti i prodotti venduti sul sito, la sezione degli ultimi prodotti e delle recensioni dei clienti.
+
 ![Heading della homepage](media/homepage.gif)
 
 - **products.html**: Una pagina dedicata alla visualizzazione dettagliata dei prodotti disponibili, ognuno dei quali ha un'icona placeholder, un nome ed un prezzo. L'utente ha la possibilità di interagire con l'elenco dei prodotti e con la possibilità di impostare diversi filtri di ricerca. 
 I prodotti presenti sono inseriti attraverso la logica presente nel file *products.js*.
+
 ![Pagina prodotti con filtri](media/dimostrazione_filtri.gif)
 
 - **style.css**: Il file CSS che definisce lo stile del sito, inclusi colori, font e layout responsivo.
@@ -37,15 +39,18 @@ I prodotti presenti sono inseriti attraverso la logica presente nel file *produc
 - **main.js**: Il file JavaScript principale che gestisce l'interattività del sito, come la navigazione e le animazioni. Ecco le funzionalità principali: 
 
     - Navbar cambia comportamento al variare dello scroll e a seconda della posizione della pagina. 
+
     ![Animazione della navbar](media/animazione_navbar.gif)
 
     - Animazione per il conteggio progressivo di numeri, come Wallet venduti, Utenti registrati e Recensioni positive, che entra in azione solo quando l'elemento entra nella vista del browser.
+
     ![Animazione dei numeri](media/animazione_conteggio_numeri.gif)
 
     - Sezione "Ultimi prodotti" che mostra i Wallet più recenti, aggiungendoli dinamicamente con immagini e prezzi.
     ![Sezione ultimi prodotti](media/ultimi_prodotti.png)
 
     - Sezione "Ultime recensioni" in cui vengono mostrate le recensioni dei clienti, mostrandole dinamicamente con immagini, descrizioni e indice di    gradimento rappresentato da icone Bootstrap a forma di stella.
+    
     ![Recensioni dei clienti](media/recensioni.gif)
 
 
